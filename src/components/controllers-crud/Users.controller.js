@@ -1,9 +1,12 @@
 import React from 'react';
+import UserTable from './UserTable';
 
 const UsersController = () => {
     return (
 
-        <div>User Controller</div>
+        <div>
+            <UserTable />
+        </div>
     )
 }
 

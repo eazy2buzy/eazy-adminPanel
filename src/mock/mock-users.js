@@ -50,7 +50,7 @@ export const users = [
         status: '',
         lastCancelation: '',
         numberOfCanelation: 0,
-        status: Status.SCHEDULED,
+        status: Status.DONE,
 
         prevTreatments: [
             {
@@ -194,7 +194,7 @@ export const users = [
         status: '',
         lastCancelation: '1.12.19',
         numberOfCanelation: 2,
-        status: Status.SCHEDULED,
+        status: Status.NOT_SCHEDULED,
         prevTreatments: [
             {
                 date: '11.12.19',
@@ -228,7 +228,7 @@ export const users = [
         status: '',
         lastCancelation: '1.12.19',
         numberOfCanelation: 2,
-        status: Status.SCHEDULED,
+        status: Status.CANCELED,
         prevTreatments: [
             {
                 date: '11.12.19',
@@ -262,7 +262,7 @@ export const users = [
         status: '',
         lastCancelation: '1.12.19',
         numberOfCanelation: 2,
-        status: Status.SCHEDULED,
+        status: Status.DONE,
         prevTreatments: [
             {
                 date: '11.12.19',
@@ -296,7 +296,7 @@ export const users = [
         status: '',
         lastCancelation: '1.12.19',
         numberOfCanelation: 2,
-        status: Status.SCHEDULED,
+        status: Status.DONE,
         prevTreatments: [
             {
                 date: '11.12.19',
@@ -330,7 +330,7 @@ export const users = [
         status: '',
         lastCancelation: '1.12.19',
         numberOfCanelation: 2,
-        status: Status.SCHEDULED,
+        status: Status.DONE,
         prevTreatments: [
             {
                 date: '11.12.19',

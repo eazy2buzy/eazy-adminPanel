@@ -1,11 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import 'antd/dist/antd.css';
+import AppRouter from './routes';
 
 function App() {
   return (
     <div className="App">
-      firstCommit
+      <AppRouter />
     </div>
   );
 }

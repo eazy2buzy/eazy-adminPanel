@@ -6,7 +6,7 @@ import Reports from './components/reports/Report';
 import UsersController from './components/controllers-crud/Users.controller';
 import PostsController from './components/controllers-crud/Posts.controller';
 import Calander from './components/calendar/Calendar';
-import { Layout } from 'antd';
+import { Layout, Table } from 'antd';
 import styled from 'styled-components';
 import { SideBarStyle } from './components/side-navigation/SideBarStyle';
 import AppFooter from './components/footer/AppFooter';

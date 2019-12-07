@@ -229,6 +229,7 @@ export const users = [
         lastCancelation: '1.12.19',
         numberOfCanelation: 2,
         status: Status.CANCELED,
+
         prevTreatments: [
             {
                 date: '11.12.19',

@@ -51,6 +51,18 @@ const columns = [{
     }
 },
 {
+    title: 'Next treatment',
+    dataIndex: 'nextTime',
+    key: 'nextTratment',
+    render: (nextTime, status) => {
+        const color = status === Status.CANCELED ? 'red' : '';
+        return (
+            <span style={{ color: color }} key={nextTime}>{nextTime}</span>
+        )
+    }
+
+},
+{
     title: 'Action',
     key: 'action',
     render: (text, record) => (

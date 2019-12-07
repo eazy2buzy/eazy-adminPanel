@@ -10,7 +10,7 @@ text-align:center;
 const AppFooter = props => {
     return (
         <FooterStyle>
-            Easy2Busy ©2020 Created by Eliran & Sapir
+            Easy2Busy ©2020 Created by Eliran Hasin
         </FooterStyle>
     )
 }

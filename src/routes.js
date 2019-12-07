@@ -11,6 +11,7 @@ import styled from 'styled-components';
 import { SideBarStyle } from './components/side-navigation/SideBarStyle';
 import AppFooter from './components/footer/AppFooter';
 import AppHeader from './components/header/AppHeader';
+import Actions from './components/calendar/actions/Actions';
 
 const { Content, Header, Footer } = Layout;
 
@@ -37,7 +38,9 @@ const AppRouter = props => {
                                     <Route exact path={'/reports'} component={Reports} />
                                     <Route exact path={'/controllers/users'} component={UsersController} />
                                     <Route exact path={'/controllers/posts'} component={PostsController} />
-                                    <Route exact path={'/calander'} component={Calander} />
+                                    <Route exact path={'/calendar'} component={Calander} />
+                                    <Route exact path={'/calendar/actions'} component={Actions} />
+
                                 </Switch>
                             </Content>
                         </AppContentStyled>

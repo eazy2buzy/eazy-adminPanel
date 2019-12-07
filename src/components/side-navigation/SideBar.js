@@ -38,7 +38,7 @@ const SideBar = props => {
                     </SubMenu>
                     <SubMenu key="calender" title={renderSubMenuTitle('calendar', 'Calendar')}>
                         <Menu.Item key="cal" onClick={() => handleRoutesChanged('/calendar')}>My Calendar</Menu.Item>
-                        <Menu.Item key="actions">Actions</Menu.Item>
+                        <Menu.Item key="actions" onClick={() => handleRoutesChanged('/calendar/actions')}>Actions</Menu.Item>
                         <Menu.Item key="waiting">Waiting List</Menu.Item>
                     </SubMenu>
                     <Menu.Item key='reports' onClick={() => handleRoutesChanged('/reports')}>{renderSubMenuTitle('pie-chart', 'Reports')}</Menu.Item>

@@ -5,7 +5,7 @@ import SideBar from './components/side-navigation/SideBar';
 import Reports from './components/reports/Report';
 import UsersController from './components/controllers-crud/Users.controller';
 import PostsController from './components/controllers-crud/Posts.controller';
-import Calander from './components/calendar/Calendar';
+import MyCalander from './components/calendar/Calendar';
 import { Layout, Table } from 'antd';
 import styled from 'styled-components';
 import { SideBarStyle } from './components/side-navigation/SideBarStyle';
@@ -38,7 +38,7 @@ const AppRouter = props => {
                                     <Route exact path={'/reports'} component={Reports} />
                                     <Route exact path={'/controllers/users'} component={UsersController} />
                                     <Route exact path={'/controllers/posts'} component={PostsController} />
-                                    <Route exact path={'/calendar'} component={Calander} />
+                                    <Route exact path={'/calendar'} component={MyCalander} />
                                     <Route exact path={'/calendar/actions'} component={Actions} />
 
                                 </Switch>

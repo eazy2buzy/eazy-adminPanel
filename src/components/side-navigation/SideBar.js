@@ -31,7 +31,6 @@ const SideBar = props => {
                     defaultSelectedKeys={['profile']}
                     defaultOpenKeys={['sub1']}
                     className='sider-menu-container'>
-                    <Menu.Item key={'profile'} onClick={() => handleRoutesChanged('/profile')}>{renderSubMenuTitle('profile', 'Profile')}</Menu.Item>
                     <SubMenu key={'control'} title={renderSubMenuTitle('control', 'Controller')}>
                         <Menu.Item key='users' onClick={() => handleRoutesChanged('/controllers/users')}>Clients</Menu.Item>
                         <Menu.Item key='posts' onClick={() => handleRoutesChanged('/controllers/posts')}>Posts</Menu.Item>

@@ -12,8 +12,28 @@ margin-top: 30px;
 }
 .img-action{
     height: 40vh;
-    width: 22vw;
     padding: 12px;
     cursor: pointer;
+}
+`
+
+export const ActionsStyle = styled.div`
+.add-action-container{
+    height:100px;
+}
+.actions-container{
+    margin:25px;
+}
+
+`
+export const AddActionModalStyle = styled.div`
+
+.input-item{
+    padding-bottom:25px;
+}
+
+.action-uploader > .ant-upload {
+  width: 128px;
+  height: 128px;
 }
 `
